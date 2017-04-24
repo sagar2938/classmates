@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="80"
+    android:background="@drawable/themebackground"
+     >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="84dp"
+    android:weightSum="90" 
+    android:orientation="horizontal"
+    >
+
+    <EditText
+        android:id="@+id/post1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="78.39"
+        android:text="type to post"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <Button
+        android:id="@+id/home_postit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:background="@drawable/post3" />
+    
+     </LinearLayout>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:weightSum="90" >
+
+    <Button
+        android:id="@+id/home_posts_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:background="@drawable/postssss"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/home_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:background="@drawable/notificationssss"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/home_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:background="@drawable/chatssss" />
+    
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="76dp"
+        android:orientation="horizontal"
+        android:weightSum="90" >
+
+    <Button
+        android:id="@+id/home_services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:background="@drawable/engineeringservicesss"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/home_timetabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:background="@drawable/eventssss"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/home_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:background="@drawable/searchsss"
+        android:padding="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="90" >
+
+        <Button
+            android:id="@+id/home_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:background="@drawable/friends"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/home_messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:background="@drawable/messagesss"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/home_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:background="@drawable/settingssss"
+            android:padding="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:weightSum="100"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+     >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="70"
+        android:text="First Name :: " />
+
+    <EditText
+        android:id="@+id/register_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+    </EditText>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:weightSum="100"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+     >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LastName :: "
+        android:layout_weight="70"
+         />
+
+    <EditText
+        android:id="@+id/register_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+<RadioGroup 
+    android:id="@+id/register_gender"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:layout_gravity="center"
+    >
+    <RadioButton 
+        android:id="@+id/male"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        
+        android:text="Male"
+        />
+     <RadioButton 
+        android:id="@+id/female"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+      
+        android:text="Female"
+        />
+    
+</RadioGroup>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:weightSum="100"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+     >
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mail Id :: " 
+        android:layout_weight="70"
+        />
+
+<EditText
+    android:id="@+id/register_mail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textEmailAddress" />
+
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:weightSum="100"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+     >
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password :: "
+        android:layout_weight="70"
+         />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+</LinearLayout>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:weightSum="100" >
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Security :: " 
+        
+        />
+<Spinner
+        android:id="@+id/register_seq_ques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ 
+
+</LinearLayout>
+   <EditText
+        android:id="@+id/register_seq_ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />    <Button
+        android:id="@+id/reg_button_click1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+</LinearLayout>

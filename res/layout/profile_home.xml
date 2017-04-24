@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/send_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:text="Message" />
+
+
+    <Button
+        android:id="@+id/profile_wall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="posts" />
+
+    <Button
+        android:id="@+id/profile_discussions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="discussions" />
+
+    <Button
+        android:id="@+id/profile_challenges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="challenges" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Info.."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME    ::" />
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BATCH   :: " />
+
+    <TextView
+        android:id="@+id/profile_batch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    </LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BRANCH   :: " />
+
+    <TextView
+        android:id="@+id/profile_branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    </LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COLLEGE :: " />
+
+    <TextView
+        android:id="@+id/profile_college"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
+</LinearLayout>

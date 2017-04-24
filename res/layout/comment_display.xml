@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+     >
+
+     <ListView
+         android:id="@+id/view_comments"
+         android:layout_width="match_parent"
+         android:layout_height="372dp"
+         android:layout_marginBottom="50dp"
+          >
+
+    </ListView>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="112dp"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:background="@drawable/logo"
+     >
+
+    <EditText
+        android:id="@+id/write_comment_text"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="85" >
+
+        <requestFocus />
+    </EditText>
+
+     <Button
+         android:id="@+id/post_comment_button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="0dp"
+         android:layout_marginLeft="0dp"
+         android:layout_weight="15"
+         android:paddingBottom="0dp"
+         android:paddingRight="0dp"
+         android:text="Button" />
+
+</LinearLayout>
+</LinearLayout>

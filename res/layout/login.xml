@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:weightSum="100"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="70"
+        android:text="UserName" />
+
+<EditText
+    android:id="@+id/userLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="30"
+    android:inputType="textEmailAddress" />
+
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:weightSum="100"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="70"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/userPasswordMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:inputType="textPassword" />
+
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+   
+     >
+
+    <Button
+        android:id="@+id/login_press"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/forgot_password_press"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="Forgot Password" />
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/register_press"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="REGISTER" />
+
+</LinearLayout>

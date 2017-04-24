@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.classmates.classmates"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+<uses-permission android:name="android.permission.INTERNET" /> 
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".ClassmatesActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+             >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".search_others"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+             >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH_OTHERS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".post_notice"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+             >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.POST_NOTICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".notice_dislplay"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+             >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.NOTICE_DISPLAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".comment_display"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+             >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.COMMENT_DISPLAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+            <activity
+            android:name=".message_reply"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+             >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MESSAGE_REPLY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="@string/app_name"
+           
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.LOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name=".college_wall"
+            android:label="@string/app_name"
+           
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.COLLEGE_WALL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                   <activity
+            android:name=".forgot_password1"
+            android:label="@string/app_name"
+           
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.FORGOT_PASSWORD1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+              <activity
+            android:name=".message_gateway"
+            android:label="@string/app_name"
+           
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MESSAGE_GATEWAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".outbox"
+            android:label="@string/app_name"
+           
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.OUTBOX" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view_data"
+            android:label="@string/app_name"
+           
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_DATA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.HOME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".Register"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.REGISTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".Forgot_Password"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.FORGOT_PASSWORD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".profile_posts"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PROFILE_POSTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".profile_wall_comments"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PROFILE_WALL_COMMENTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".Register2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.REGISTER2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".chat"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CHAT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".E_services"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.E_SERVICES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".messages"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MESSAGES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".notifications"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.NOTIFICATIONS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".posts"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.POSTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".profile"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PROFILE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".Search"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name=".settings"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+             <activity
+            android:name=".events"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EVENTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".announcements"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ANNOUNCEMENTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".challanges"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CHALLANGES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".discussion"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DISCUSSION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                </application>
+
+</manifest>
